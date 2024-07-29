@@ -12,7 +12,17 @@ dataset.
 
 
 ![image](https://github.com/user-attachments/assets/c0eb8b18-322b-434f-86a4-46ba586c9a12)
+
 ![image](https://github.com/user-attachments/assets/6e813856-6e0e-4a7d-9128-e95e8fae0415)
 
+Test file is also created.
+
+Commands-->
+
+docker-compose -f 
+docker-compose-pytest.yml up --build
+
+docker-compose -f 
+docker-compose-app.yml up --build
 
 
