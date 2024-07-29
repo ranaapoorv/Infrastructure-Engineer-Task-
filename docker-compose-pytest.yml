@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  pytest:
+    build:
+      context: .
+      dockerfile: pytest.Dockerfile
+    container_name: pytest_container

@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  taxn:
+    build:
+      context: .
+      dockerfile: Taxn.Dockerfile
+    container_name: Taxn_container
