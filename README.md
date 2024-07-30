@@ -74,17 +74,17 @@ This structure ensures a reproducible and isolated environment for both developm
 
 **How to Run the Project**</br>
 
-Prerequisites
-Install Docker: Docker Installation Guide
-Install Docker Compose: Docker Compose Installation Guide
+Prerequisites</br>
+Install Docker: Docker Installation Guide</br>
+Install Docker Compose: Docker Compose Installation Guide</br>
 
 sudo docker-compose -f docker-compose-Taxn.yml build
-sudo docker-compose -f docker-compose-Taxn.yml up
-incase of resetting container: sudo docker stop taxn_container && sudo docker rm taxn_container
-sudo docker logs taxn_container
-for test_pytest.py
-sudo docker build -f test_pytest.Dockerfile -t test_pytest_image . && sudo docker run --name pytest_container test_pytest_image
-incase of resetting comtainer: sudo docker stop pytest_container && sudo docker rm pytest_container
+sudo docker-compose -f docker-compose-Taxn.yml up</br>
+incase of resetting container: sudo docker stop taxn_container && sudo docker rm taxn_container</br>
+sudo docker logs taxn_container</br>
+for test_pytest.py</br>
+sudo docker build -f test_pytest.Dockerfile -t test_pytest_image . && sudo docker run --name pytest_container test_pytest_image</br>
+incase of resetting comtainer: sudo docker stop pytest_container && sudo docker rm pytest_container</br>
 sudo docker logs pytest_container</br>
 
 
