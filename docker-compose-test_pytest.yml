@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  test_pytest:
+    build:
+      context: .
+      dockerfile: test_pytest.Dockerfile
+    container_name: test_pytest_container
