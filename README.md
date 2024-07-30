@@ -78,6 +78,7 @@ Prerequisites</br>
 Install Docker: Docker Installation Guide</br>
 Install Docker Compose: Docker Compose Installation Guide</br>
 
+**Commands**</br>
 sudo docker-compose -f docker-compose-Taxn.yml build
 sudo docker-compose -f docker-compose-Taxn.yml up</br>
 incase of resetting container: sudo docker stop taxn_container && sudo docker rm taxn_container</br>
