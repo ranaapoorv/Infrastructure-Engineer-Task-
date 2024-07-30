@@ -11,9 +11,8 @@ dataset.
 ● Identify the top 10 customers by revenue generated.
 
 
-![image](https://github.com/user-attachments/assets/c0eb8b18-322b-434f-86a4-46ba586c9a12)
+![image](https://github.com/user-attachments/assets/b015ddec-e116-4a56-94c2-6d961cab4596)
 
-![image](https://github.com/user-attachments/assets/6e813856-6e0e-4a7d-9128-e95e8fae0415)
 
 Test file is also created.
 
