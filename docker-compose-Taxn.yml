@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  taxn:
+    build:
+      context: .
+      dockerfile: Taxn.Dockerfile
+    container_name: taxn_container
+    volumes:
+      - .:/home/kali/Desktop # Mount the current directory to the container
+    environment:
+      - PYTHONUNBUFFERED=1  # Ensure output is not buffered (useful for logs)
