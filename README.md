@@ -1,11 +1,17 @@
 # Infrastructure-Engineer-Task-
 
+**Taxn.py-->**
+The Taxn.py script processes a dataset (dataset.csv) using the Pandas library. Here’s a brief overview of what the script does:
+Reads data from dataset.csv.
+Processes the data using various Pandas operations.
+Outputs the processed data or results.
+
+![image](https://github.com/user-attachments/assets/b015ddec-e116-4a56-94c2-6d961cab4596)
+
 **test_pytest.py:**</br>
 This file contains unit tests for the revenue calculation functions.
 The tests are written using the unittest framework.
 It includes mock data to simulate a CSV file and tests for calculating revenue per month, product, and customer.</br>
-
-![image](https://github.com/user-attachments/assets/b015ddec-e116-4a56-94c2-6d961cab4596)
 
 **Docker Compose Files-->**
 1. docker-compose-Taxn.yml
@@ -67,6 +73,10 @@ Docker Compose simplifies the management of multi-container applications, making
 This structure ensures a reproducible and isolated environment for both development and testing, leveraging Docker's containerization capabilities. The project can be built and run consistently across different environments, making it easier to manage dependencies and configurations. ​</br>
 
 **How to Run the Project**</br>
+
+Prerequisites
+Install Docker: Docker Installation Guide
+Install Docker Compose: Docker Compose Installation Guide
 
 sudo docker-compose -f docker-compose-Taxn.yml build
 sudo docker-compose -f docker-compose-Taxn.yml up
